@@ -10,6 +10,6 @@ func main() {
 	ar := guns.NewAssaultRifle()
 	mg := guns.NewMachineGun()
 
-	fmt.Printf("Name of gun: %s", ar)
-	fmt.Printf("Name of gun: %s", mg)
+	fmt.Printf("Name of gun: %s\n", guns.GiveMeGun(ar))
+	fmt.Printf("Name of gun: %s\n", guns.GiveMeGun(mg))
 }
